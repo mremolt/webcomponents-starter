@@ -1,9 +1,14 @@
+import './best.element';
 import './home/home-view.element';
 
 export const APP_ROUTES = [
   {
     path: '/',
     component: 'sz-home-view',
+  },
+  {
+    path: '/best',
+    component: 'my-best',
   },
   {
     path: '/page2',

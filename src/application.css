@@ -7,4 +7,10 @@ body {
   --theme-active-background-color: #008cba;
   --theme-active-color: #fff;
   --theme-card-background-color: #f3f3f3;
+  --error-color: #ff0000;
+}
+
+
+p {
+  color: var(--error-color);
 }
